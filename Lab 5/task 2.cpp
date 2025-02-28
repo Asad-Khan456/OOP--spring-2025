@@ -2,7 +2,7 @@
 #include "string"
 using namespace std;
 
-class Patient {
+class Patient{
 private:
     int ID;
     string name;
@@ -22,7 +22,7 @@ public:
 
         }
     }
-    ~Patient() {
+    ~Patient(){
         delete[] result;
     }
     void displayresult(){
