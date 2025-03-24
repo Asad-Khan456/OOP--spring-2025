@@ -131,15 +131,19 @@ public:
         cout << "Calculating grades for " << student->getName() << " in " << courseName << endl;
     }
     string calculateGrade(float GPA) {
-        if (GPA >= 3.7) {
+        if (GPA >= 3.7){
             return "A";
-        } else if (GPA >= 3.0) {
+        }
+        else if(GPA >= 3.0){
             return "B";
-        } else if (GPA >= 2.0) {
+        }
+        else if(GPA >= 2.0){
             return "C";
-        } else if (GPA >= 1.0) {
+        }
+        else if(GPA >= 1.0){
             return "D";
-        } else {
+        }
+        else{
             return "F";
         }
     }
