@@ -47,7 +47,7 @@ public:
     string getStatus() override{
         string status;
         if(isOn){
-            status = "On, Temperature: " + to_string(temperature) + "°C";
+            status = "On, Temperature: " + to_string(temperature) + " Celcius";
         }
         else{
             status = "Off";
